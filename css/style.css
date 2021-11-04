@@ -1,0 +1,116 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: Arial, sans-serif;  
+}
+
+img{
+    width: 100%;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+/* HEADER */
+header{
+    font-family: Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Header top */
+.header-top{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-right: 10px;
+    height: 50px;
+}
+
+/* logo */
+.header-top .logo-sony{
+    width: 100px;
+    height: 50px;
+}
+
+/* Header Bottom */
+.header-bottom{
+    height: 80px;
+    line-height: 80px;
+    font-weight: 500;
+}
+
+/* logo */
+.header-bottom .logo-play{
+    width: 90px;
+    height: 80px;
+}
+
+@media all and (min-width:992px) {
+    .header-bottom .logo-play{
+        width: 55px;
+        height: 55px;
+    }
+}
+
+/* hamburger menu */
+.header-bottom .hamburger-menu{
+    font-size: 30px;
+}
+
+/* Li header */
+.header-bottom ul li::after{
+    content: url(../img/chevron-down-solid.svg);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.header-bottom ul li:hover::after{
+    content: url(../img/chevron-down-solid-hover.svg);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.header-bottom ul li:hover{
+    color: rgb(0, 112, 209);
+    text-decoration: underline;
+}
+
+/* Lente */
+.header-bottom .lens{
+    width: 30px;
+    height: 30px;
+}
