@@ -14,18 +14,6 @@ img{
     width: 100%;
 }
 
-.right{
-    text-align: right;
-}
-
-.left{
-    text-align: left;
-}
-
-.center{
-    text-align: center;
-}
-
 ul{
     padding: 0;
     margin: 0;
@@ -50,7 +38,6 @@ header{
 .header-top{
     background-color: black;
     color: white;
-    text-transform: uppercase;
     font-size: 30px;
     padding-right: 10px;
     height: 50px;
@@ -178,7 +165,7 @@ main .jumbotron{
 
 /* Lista Giochi */
 .game-list{
-    margin: 40px auto;
+    margin: 10px auto 70px;
     
 }
 .game-list .box{
@@ -194,4 +181,59 @@ main .jumbotron{
 .s_border{
     border: 2px solid #0072ce;
     border-radius: 15px;
+}
+
+/* Play 5 */
+.play-5 .section-title .color-text{
+    color: #0072ce;
+    font-weight: 500;
+}
+
+.play-5 h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.play-5 p{
+    color: #636363;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.play-5 .section-title{
+    margin-bottom: 50px;
+}
+
+/* Console */
+.play-5 a{
+    margin-top: 15px;
+}
+
+/* Colonna con padding top */
+@media all and (min-width:768px) {
+    .play-5 .col-padded-top{
+        padding-top: 60px;
+    }
+}
+
+@media all and (min-width:992px) {
+    .play-5 .col-padded-top{
+        padding-top: 180px;
+    }
+    .play-5 .h2-console{
+        white-space: nowrap;
+    }
+}
+
+/* Devices */
+@media all and (min-width:768px) {
+    .play-5 .box-devices{
+        padding: 10px;
+    }
+}
+@media all and (min-width:992px) {
+    .play-5 .box-devices{
+        padding: 15px;
+    }
 }
