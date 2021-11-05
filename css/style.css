@@ -67,6 +67,7 @@ header{
     height: 80px;
     line-height: 80px;
     font-weight: 500;
+    background-color: white;
 }
 
 /* logo */
@@ -173,4 +174,24 @@ main .jumbotron{
 
 .jumbo-content .acquista-btn{
     margin: 40px 0;
+}
+
+/* Lista Giochi */
+.game-list{
+    margin: 40px auto;
+    
+}
+.game-list .box{
+    margin: 20px auto;
+}
+
+.game-list .box img{
+    border-radius: 15px;
+    padding: 2px;
+}
+
+/* Bordo box1 */
+.s_border{
+    border: 2px solid #0072ce;
+    border-radius: 15px;
 }
