@@ -290,3 +290,24 @@ main .jumbotron{
 .play .box-ps4{
     margin-bottom: 30px;
 }
+
+/* PS Plus */
+.plus{
+    background-color: #bebcbb;
+    margin: 40px 0;
+}
+
+.plus .box-padded{
+    margin: 20px 0;
+}
+
+.plus .title-plus{
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+.plus .m_btn{
+    color: #3569e6;
+    background-color: #d9dadc;
+    margin-top: 15px;
+}
