@@ -187,56 +187,56 @@ main .jumbotron{
 }
 
 /* Play 5 */
-.play-5 .section-title .color-text{
+.play .section-title .color-text{
     color: #0072ce;
     font-weight: 500;
 }
 
-.play-5 h2{
+.play h2{
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.play-5 p{
+.play p{
     color: #636363;
     font-size: 20px;
     font-weight: 500;
 }
 
-.play-5 .section-title{
+.play .section-title{
     margin-bottom: 50px;
 }
 
 /* Console */
-.play-5 a{
+.play a{
     margin-top: 15px;
 }
 
 /* Colonna con padding top */
 @media all and (min-width:768px) {
-    .play-5 .col-padded-top{
+    .play .col-padded-top{
         padding-top: 60px;
     }
 }
 
 @media all and (min-width:992px) {
-    .play-5 .col-padded-top{
+    .play .col-padded-top{
         padding-top: 180px;
     }
-    .play-5 .h2-console{
+    .play .h2-console{
         white-space: nowrap;
     }
 }
 
 /* Devices */
 @media all and (min-width:768px) {
-    .play-5 .box-devices{
+    .play .box-devices{
         padding: 10px;
     }
 }
 @media all and (min-width:992px) {
-    .play-5 .box-devices{
+    .play .box-devices{
         padding: 15px;
     }
 }
@@ -272,7 +272,7 @@ main .jumbotron{
     font-size: 25px;
 }
 
-/* Nuove uscite */
+/* Box */
 .nuove-uscite .uscite-box{
     margin: 30px auto;
 }
@@ -280,4 +280,13 @@ main .jumbotron{
 .nuove-uscite .uscite-box img{
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+/* PlayStation 4 */
+.play .play-4-top{
+    margin: 60px 0 40px;
+}
+
+.play .box-ps4{
+    margin-bottom: 30px;
 }
