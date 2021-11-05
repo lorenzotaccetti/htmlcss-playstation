@@ -256,3 +256,28 @@ main .jumbotron{
         width: 50%;
     }
 }
+
+/* Nuove Uscite */
+.nuove-uscite{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.nuove-uscite h2{
+    font-size: 40px;
+}
+
+.nuove-uscite p{
+    font-size: 25px;
+}
+
+/* Nuove uscite */
+.nuove-uscite .uscite-box{
+    margin: 30px auto;
+}
+
+.nuove-uscite .uscite-box img{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
