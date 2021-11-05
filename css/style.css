@@ -108,9 +108,7 @@ header{
 
 /* Jumbotron */
 main .jumbotron{
-    margin-top: 130px;
     height: 800px;
-    background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -118,8 +116,13 @@ main .jumbotron{
     color: white;
 }
 
+.returnal-jumbo{
+    margin-top: 130px;
+    background-image: url(../img/jumbo-bg.png);
+}
+
 /* Jumbo-content */
-.jumbotron .jumbo-content{
+.jumbotron .jumbo-content-returnal{
     position: relative;
     top: 350px;
 }
@@ -143,12 +146,12 @@ main .jumbotron{
     }
 }
 
-.jumbo-content .title{
+.jumbotron .title{
     font-size: 45px;
     margin: 40px 0;
 }
 
-.jumbo-content p{
+.jumbotron p{
     font-size: 18px;
     margin: 40px 0;
 }
@@ -159,7 +162,7 @@ main .jumbotron{
     }
 }
 
-.jumbo-content .acquista-btn{
+.jumbotron .acquista-btn{
     margin: 40px 0;
 }
 
@@ -235,5 +238,21 @@ main .jumbotron{
 @media all and (min-width:992px) {
     .play-5 .box-devices{
         padding: 15px;
+    }
+}
+
+/* Secondo Jumbo */
+.it-two-jumbo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.jumbotron .jumbo-content-it-two{
+    position: relative;
+    top: 80px;
+}
+
+@media all and (min-width:992px) {
+    .jumbo-content-it-two .title{
+        width: 50%;
     }
 }
