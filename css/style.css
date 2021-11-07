@@ -278,7 +278,17 @@ main .jumbotron{
 /* PS Plus */
 .plus{
     background-color: #bebcbb;
-    margin: 40px 0;
+    margin: 30px 0;
+}
+
+.plus .box-testo-plus{
+    padding: 20px 0;
+}
+
+@media all and (min-width:768px) {
+    .plus .box-testo-plus{
+        padding: 0;
+    }
 }
 
 .plus .title-plus{
