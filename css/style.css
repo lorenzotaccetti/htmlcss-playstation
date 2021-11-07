@@ -213,22 +213,6 @@ main .jumbotron{
     margin-top: 15px;
 }
 
-/* Colonna con padding top */
-@media all and (min-width:768px) {
-    .play .col-padded-top{
-        padding-top: 60px;
-    }
-}
-
-@media all and (min-width:992px) {
-    .play .col-padded-top{
-        padding-top: 180px;
-    }
-    .play .h2-console{
-        white-space: nowrap;
-    }
-}
-
 /* Devices */
 @media all and (min-width:768px) {
     .play .box-devices{
@@ -295,10 +279,6 @@ main .jumbotron{
 .plus{
     background-color: #bebcbb;
     margin: 40px 0;
-}
-
-.plus .box-padded{
-    margin: 20px 0;
 }
 
 .plus .title-plus{
