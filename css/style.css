@@ -175,6 +175,12 @@ main .jumbotron{
     margin: 20px auto;
 }
 
+/* Bordo con Hover */
+/* .game-list .box:hover{
+    border: 2px solid #0072ce;
+    border-radius: 15px;
+} */
+
 .game-list .box img{
     border-radius: 15px;
     padding: 2px;
@@ -221,7 +227,7 @@ main .jumbotron{
 }
 @media all and (min-width:992px) {
     .play .box-devices{
-        padding: 15px;
+        padding: 35px;
     }
 }
 
@@ -264,6 +270,10 @@ main .jumbotron{
 .nuove-uscite .uscite-box img{
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+.nuove-uscite .uscite-box div:hover{
+    text-decoration: underline;
 }
 
 /* PlayStation 4 */
@@ -411,8 +421,9 @@ footer .box-footer-copyright p{
 /* Footer li */
 footer li{
     margin: 10px 0;
-    font-weight: 200;
+    font-size: 15px;
 }
+
 footer li:hover{
     text-decoration: underline;
     color: white;
