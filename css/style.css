@@ -219,6 +219,14 @@ main .jumbotron{
     margin-top: 15px;
 }
 
+.play .box-devices{
+    opacity: .75;
+}
+
+.play .box-devices:hover{
+    opacity: 1;
+}
+
 /* Devices */
 @media all and (min-width:768px) {
     .play .box-devices{
