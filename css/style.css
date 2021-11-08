@@ -124,7 +124,7 @@ main .jumbotron{
 /* Jumbo-content */
 .jumbotron .jumbo-content-returnal{
     position: relative;
-    top: 350px;
+    top: 300px;
 }
 
 /* returnal */
@@ -155,6 +155,18 @@ main .jumbotron{
     font-size: 18px;
     margin: 40px 0;
 }
+
+/* @media all and (min-width:576px) {
+    .jumbotron p{
+        width: 80%;
+    }
+}
+
+@media all and (min-width:768px) {
+    .jumbotron p{
+        width: 70%;
+    }
+} */
 
 @media all and (min-width:992px) {
     .jumbotron p{
