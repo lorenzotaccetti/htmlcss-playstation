@@ -301,3 +301,50 @@ main .jumbotron{
     background-color: #d9dadc;
     margin-top: 15px;
 }
+
+/* Sconti */
+.sconti{
+    margin: 50px 0;
+}
+.sconti .box-sconti{
+    padding: 5px;
+    margin: 10px 0;
+}
+
+/* Plus */
+.plus{
+    background-color: #161c3b;
+    margin: 50px 0;
+}
+
+.plus p{
+    color: white;
+}
+
+.plus a{
+    color: black;
+    background-color: white;
+    margin: 15px 0;
+}
+
+/* Social Media */
+.social-media{
+    margin: 40px 0;
+}
+.social-media h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 60px 0;
+}
+
+.social-media .box-social{
+    padding-bottom: 50px;
+}
+
+@media all and (min-width:576px) {
+    .social-media .box-social{
+        padding-bottom: 0;
+    }
+}
+
+/* FOOTER */
