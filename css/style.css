@@ -156,18 +156,6 @@ main .jumbotron{
     margin: 40px 0;
 }
 
-/* @media all and (min-width:576px) {
-    .jumbotron p{
-        width: 80%;
-    }
-}
-
-@media all and (min-width:768px) {
-    .jumbotron p{
-        width: 70%;
-    }
-} */
-
 @media all and (min-width:992px) {
     .jumbotron p{
         width: 40%;
