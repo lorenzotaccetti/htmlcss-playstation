@@ -302,6 +302,10 @@ main .jumbotron{
     margin-top: 15px;
 }
 
+.plus .m_btn:hover{
+    background-color: #aeafaf; 
+}
+
 /* Sconti */
 .sconti{
     margin: 50px 0;
@@ -311,20 +315,24 @@ main .jumbotron{
     margin: 10px 0;
 }
 
-/* Plus */
-.plus{
+/* Now */
+.now{
     background-color: #161c3b;
     margin: 50px 0;
 }
 
-.plus p{
+.now p{
     color: white;
 }
 
-.plus a{
+.now a{
     color: black;
     background-color: white;
     margin: 15px 0;
+}
+
+.now a:hover{
+    background-color: rgb(197, 197, 197);
 }
 
 /* Social Media */
