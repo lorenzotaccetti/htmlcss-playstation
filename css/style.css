@@ -315,10 +315,15 @@ main .jumbotron{
     margin: 10px 0;
 }
 
-/* Now */
+/* PS Now */
 .now{
     background-color: #161c3b;
-    margin: 50px 0;
+    margin: 40px 0;
+}
+
+.now .title-plus{
+    width: 60%;
+    margin-bottom: 25px;
 }
 
 .now p{
