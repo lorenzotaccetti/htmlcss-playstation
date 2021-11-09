@@ -122,7 +122,7 @@ main .jumbotron{
 
 /* Jumbo-content */
 .jumbotron .jumbo-content-returnal{
-    padding: 120px 0 50px;
+    padding: 150px 0 50px;
 }
 
 /* returnal */
@@ -243,7 +243,7 @@ main .jumbotron{
 }
 
 .jumbotron .jumbo-content-it-two{
-    padding: 50px;
+    padding: 120px 0 50px;
 }
 
 @media all and (min-width:992px) {
