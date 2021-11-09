@@ -108,7 +108,6 @@ header li{
 
 /* Jumbotron */
 main .jumbotron{
-    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,8 +122,7 @@ main .jumbotron{
 
 /* Jumbo-content */
 .jumbotron .jumbo-content-returnal{
-    position: relative;
-    top: 300px;
+    padding: 120px 0 50px;
 }
 
 /* returnal */
@@ -245,8 +243,7 @@ main .jumbotron{
 }
 
 .jumbotron .jumbo-content-it-two{
-    position: relative;
-    top: 80px;
+    padding: 50px;
 }
 
 @media all and (min-width:992px) {
